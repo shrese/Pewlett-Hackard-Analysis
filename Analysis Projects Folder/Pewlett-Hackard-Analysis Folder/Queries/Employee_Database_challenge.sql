@@ -9,14 +9,12 @@ SELECT e.emp_no,
 	t.title,
 	t.from_date,
 	t.to_date
-INTO retirement_titles
+--INTO retirement_titles
 FROM employees AS e
 	LEFT JOIN titles AS t
 		ON e.emp_no = t.emp_no
 WHERE (birth_date BETWEEN '1952-01-01' AND '1955-12-31')
 ORDER BY e.emp_no;
-
---SELECT * FROM retirement_titles;
 
 -- Use Dictinct with Orderby to remove duplicate rows
 SELECT DISTINCT ON (emp_no) r.emp_no,
@@ -24,13 +22,13 @@ SELECT DISTINCT ON (emp_no) r.emp_no,
 	r.last_name,
 	r.title,
 	r.to_date
-INTO unique_titles
+--INTO unique_titles
 FROM retirement_titles AS r
 ORDER BY r.emp_no, r.to_date DESC;
 
 -- Retrieve the number of employees by their most recent job title who are about to retire
-SELECT COUNT(u.emp_no), u.title 
-INTO retiring_titles
+SELECT COUNT(first_name), u.title 
+--INTO retiring_titles
 FROM unique_titles as u
 GROUP BY u.title
 ORDER BY u.title;
@@ -45,7 +43,7 @@ SELECT DISTINCT ON (e.emp_no) e.emp_no,
 	d.from_date,
 	d.to_date,
 	t.title
-INTO mentorship_eligibilty
+--INTO mentorship_eligibilty
 FROM employees AS e
 	LEFT JOIN emp_dept AS d
 		ON e.emp_no = d.emp_no
