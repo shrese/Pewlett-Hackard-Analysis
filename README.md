@@ -12,8 +12,10 @@ We were tasked with determining the following:
 
 ## Results
 ### Number of retiring employees by title
-four major points from the two analysis deliverables. Use images as support where needed.
-* Aproximatly 72,000 employees expected to retire, or 30% of the workforce (Development, Production and Sales, respectively).
+* Aproximatly 72,000 employees expected to retire, or 30% of the workforce 
+    - Development
+    - Production
+    - Sales
 * Aproximatly 48,000, or 20% of the potential retirees are from two roles, Senior Engineer and Senior Staff.
 * There are two managers that are eligible.
 * The query for this was a bit flawed.  Upon reviewing the data, it was discovered that the original 300,000 employees are no longer employeed with Pewlett-Hackard.
