@@ -28,4 +28,4 @@ We were tasked with determining the following:
 ## Summary
 There is a large portion of the company that is eligible to retire and it seems that there has been little planning up to this point.  It is recommend that the company research ways to recruit new talent or outsorce some of the taskes currently completed in house.
 
-footnote: there is a bit of a flaw in the query as it includes aproximatly 60,000 that are no longer with the company.  
+footnote: there is a bit of a flaw in the original query as it includes aproximatly 60,000 that are no longer with the company.  
