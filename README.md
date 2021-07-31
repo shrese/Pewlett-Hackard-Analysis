@@ -12,11 +12,11 @@ We were tasked with determining the following:
 
 ## Results
 ### Number of retiring employees by title
-* Aproximatly 72,000 employees expected to retire, or 30% of the workforce 
+* Approximately 72,000 employees expected to retire, or 30% of the workforce 
     - Development
     - Production
     - Sales
-* Aproximatly 48,000, or 20% of the potential retirees are from two roles, Senior Engineer and Senior Staff.
+* Approximately 48,000, or 20% of the potential retirees are from two roles, Senior Engineer and Senior Staff.
 * There are two managers that are eligible.
 
 ![]( Resources/combined.PNG)
@@ -26,6 +26,7 @@ We were tasked with determining the following:
 
 ![]( Resources/eligible.PNG)
 ## Summary
-There is a large portion of the company that is eligible to retire and it seems that there has been little planning up to this point.  It is recommend that the company research ways to recruit new talent or outsorce some of the taskes currently completed in house.
+There is a large portion of the company that is eligible to retire and it seems that there has been little planning up to this point. It is recommended that the company research ways to recruit new talent and/or outsource some of the tasks currently completed in house.
 
-footnote: there is a bit of a flaw in the original query as it includes aproximatly 60,000 that are no longer with the company.  
+footnote: there is a bit of a flaw in the original query as it includes approximately 60,000 that are no longer with the company.
+  
