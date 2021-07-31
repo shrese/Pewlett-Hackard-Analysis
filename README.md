@@ -18,14 +18,14 @@ We were tasked with determining the following:
     - Sales
 * Aproximatly 48,000, or 20% of the potential retirees are from two roles, Senior Engineer and Senior Staff.
 * There are two managers that are eligible.
-* The query for this was a bit flawed.  Upon reviewing the data, it was discovered that the original 300,000 employees are no longer employeed with Pewlett-Hackard.
 
 ![]( Resources/combined.PNG)
 
 ### Employees eligible for the mentorship program
 * There are only 1,475 existing emplyees that are eligible for the program, or 2% of the eligible retirees.
-*The mentorship query for this analysis was also a bit flawed as it did not accomodate for employees that are no longer with the company.
 
 ![]( Resources/eligible.PNG)
 ## Summary
 There is a large portion of the company that is eligible to retire and it seems that there has been little planning up to this point.  It is recommend that the company research ways to recruit new talent or outsorce some of the taskes currently completed in house.
+
+footnote: there is a bit of a flaw in the query as it includes aproximatly 60,000 that are no longer with the company.  
