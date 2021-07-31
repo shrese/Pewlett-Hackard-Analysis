@@ -20,9 +20,7 @@ We were tasked with determining the following:
 * There are two managers that are eligible.
 * The query for this was a bit flawed.  Upon reviewing the data, it was discovered that the original 300,000 employees are no longer employeed with Pewlett-Hackard.
 
-![]( Resources/eligible_to_retire.PNG)
-
-![]( Resources/departments.PNG)
+![]( Resources/combined.PNG)
 
 ### Employees eligible for the mentorship program
 * There are only 1,475 existing emplyees that are eligible for the program, or 2% of the eligible retirees.
